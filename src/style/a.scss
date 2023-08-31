@@ -1,0 +1,50 @@
+.a{
+  padding: 120px 0 210px;
+  background: #2F2F2F;
+  &__title{
+    margin-bottom: 10px;
+    color: #F59B00;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  &__subtitle{
+    color: #FFF;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: capitalize;
+  }
+  &__text{
+    margin: 25px 0 35px;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: rgb(120, 120, 120);
+  }
+  &__btn{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background: #F59B00;
+    padding: 15px 30px;
+  }
+  &__nav{
+    display: flex;
+  }
+  &__right{
+    position: relative;
+    &-img{
+      position: absolute;
+      top: -124px;
+      left: 10px;
+      z-index: 1;
+    }
+    &-img2{
+      position: absolute;
+      top: -110px;
+    }
+  }
+}

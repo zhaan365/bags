@@ -1,0 +1,64 @@
+.footer{
+  background: rgba(47, 47, 47, 0.92);
+  padding: 96px 0;
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__box1{
+    &-text{
+      color: rgb(120, 120, 120);
+      font-size: 16px;
+      line-height: 150%;
+    }
+  }
+  &__box2{
+    &-title{
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    &-text{
+      color: rgb(120, 120, 120);
+      font-size: 16px;
+      line-height: 160%;
+      text-transform: capitalize;
+    }
+  }
+  &__box3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 29px;
+    align-items: start;
+    &-btn{
+      color: #FFF;
+      font-size: 16px;
+      text-transform: capitalize;
+      border-radius: 4px;
+      background: #F59B00;
+      padding: 10px 20px;
+    }
+    &-title{
+      color: #FFF;
+      font-size: 20px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+    &-field{
+      width: 264px;
+      padding: 12px 22px 12px 21px;
+      background: transparent;
+      border-radius: 5px;
+      border: 1px solid rgb(120, 120, 120);
+      font-size: 16px;
+      color: white;
+      outline: none;
+      &::placeholder{
+        font-size: 16px;
+        text-transform: capitalize;
+        color: rgb(120, 120, 120);
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+.c{
+  padding-bottom: 130px;
+  &__title{
+    color: #2F2F2F;
+    font-size: 31px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  &__text{
+    margin: 25px 0 60px;
+    color: #2F2F2F;
+    text-align: center;
+    font-size: 16px;
+    line-height: 160%;
+    text-transform: capitalize;
+  }
+  &__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 100px;
+    &-block{
+      width: 264px;
+      height: 273px;
+      border-radius: 10px;
+      background: #ECF1FF;
+      position: relative;
+    }
+    &-img{
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  &__btn{
+    margin-top: 120px;
+    border-radius: 5px;
+    border: 1px solid rgba(245, 155, 0, 0.20);
+    padding: 15px 30px;
+    color: #F59B00;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: transparent;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+  }
+  &__btns{
+    display: flex;
+    justify-content: center;
+  }
+}
